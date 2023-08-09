@@ -1,0 +1,191 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+:root {
+    --navy-blue: #2e2f42;
+    --iris: #4d5ae5;
+    --slate: #434455;
+    --cloud: #f4f4fd;
+    --cornflower: #e7e9fc;
+    --ocean: #404bbf;
+
+}
+
+.navigation-items {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--navy-blue);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.32px
+}
+
+.navigation-items:hover {
+    color: var(--ocean, #404BBF);
+}
+
+.navigation-contacts .navigation-contact {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--slate);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.page-title {
+
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.pointer {
+    cursor: pointer;
+    background-color: rgba(231, 233, 252, 1);
+    color: var(--iris, #4D5AE5);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+.pointer:hover {
+    color: white;
+    background-color: rgba(64, 75, 191, 1);
+}
+
+.pointer-index {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(77, 90, 229, 1);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+.pointer-index:hover {
+    color: white;
+    background: var(--ocean, #404BBF);
+}
+
+.color-iris {
+    color: rgba(77, 90, 229, 1);
+}
+
+.color-navb {
+    color: rgba(46, 47, 66, 1);
+}
+
+.color-slate {
+    color: rgba(67, 68, 85, 1);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.color-cloud {
+    color: var(--cloud);
+}
+
+.title-index {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    color: white;
+    font-style: normal;
+    letter-spacing: 1.12px;
+}
+
+.index-background {
+    background-color: var(--navy-blue);
+}
+
+.h3-title {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.h2-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--navy-blue);
+    letter-spacing: 0.72px
+}
+
+.place-footer {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--cloud);
+}
+
+.team-style {
+    font-family: "Roboto";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    color: var(--navy-blue);
+    background-color: var(--cloud, #F4F4FD);
+}
+
+.color-slates {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-shadow: 0px 4px 4px;
+    color: #434455
+}
+
+.character-style {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
+.worker-design {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+a.pointer:hover {
+    color: white;
+    background-color: rgba(64, 75, 191, 1);
+    text-transform: uppercase;
+}
+.visually-hidden {
+    
+}
