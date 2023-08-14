@@ -72,16 +72,6 @@ ul {
     list-style-type: none;
 }
 
-:root {
-    --navy-blue: #2e2f42;
-    --iris: #4d5ae5;
-    --slate: #434455;
-    --cloud: #f4f4fd;
-    --cornflower: #e7e9fc;
-    --ocean: #404bbf;
-
-}
-
 .navigation-items {
     font-size: 16px;
     line-height: 1.5;
@@ -162,11 +152,16 @@ ul {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
+    border-radius: 4px;
+    border: 1px solid;
+    line-height: 1.5;
 }
 
-.pointer:hover {
-    color: white;
-    background-color: rgba(64, 75, 191, 1);
+.pointer:hover, .pointer:focus, .pointer:active {
+background-color: var(--button-color-hover);
+    color: var(--background);
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .pointer-index {
@@ -201,6 +196,7 @@ ul {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    color: var(--color-text-in-p)
 }
 
 .color-cloud {
@@ -254,6 +250,12 @@ background-color: var(--button-color-hover);
 
 .wawd {
     background-color: var(--background);
+    color: var(--color-text-in-menu-adress-h3-footer-bg);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 2.5;
+        text-transform: capitalize;
 }
 
 .h3-title {
@@ -416,4 +418,62 @@ display: none;
 .body-medium {
 color: var(--color-text-in-menu-adress-h3-footer-bg);
     font-weight: 500;
+}
+
+.btn-padding-p2 {
+    padding: 12px 24px;
+}
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    flex-shrink: 0;
+    padding-bottom: 120px;
+}
+
+.card-border {
+    flex-wrap: wrap;
+    outline: 1px solid var(--cornflower);
+    background: var(--background);
+}
+
+.item {
+    flex-basis: calc((100% - 96px) / 3);
+}
+
+.img-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-content-p2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 32px 16px;
+}
+
+.studiowh {
+    color: #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.313;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.article {
+    color: var(--color-text-in-menu-adress-h3-footer-bg);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.description {
+    color: var(--color-text-in-p)
 }
