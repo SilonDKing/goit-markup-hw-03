@@ -202,6 +202,15 @@ background-color: var(--button-color-hover);
     color: var(--color-text-in-p)
 }
 
+.color-slate {
+    padding-bottom: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        flex-shrink: 0;
+        display: flex;
+}
+
 .color-cloud {
     color: var(--cloud);
 }
