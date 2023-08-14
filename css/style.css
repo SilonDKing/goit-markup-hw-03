@@ -343,10 +343,6 @@ background-color: var(--button-color-hover);
     color: var(--navy-blue);
     letter-spacing: 0.72px;
     display: block;
-    max-width: 496px;
-    margin: 0 auto;
-    color: var(--background);
-
 }
 
 .place-footer {
