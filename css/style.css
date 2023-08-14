@@ -329,7 +329,12 @@ background-color: var(--button-color-hover);
     font-size: 36px;
     line-height: 1.1;
     color: var(--navy-blue);
-    letter-spacing: 0.72px
+    letter-spacing: 0.72px;
+    display: block;
+    max-width: 496px;
+    margin: 0 auto;
+    color: var(--background);
+
 }
 
 .place-footer {
@@ -364,6 +369,10 @@ background-color: var(--button-color-hover);
     letter-spacing: 0.72px;
     color: var(--navy-blue);
     background-color: var(--cloud, #F4F4FD);
+    display: block;
+    max-width: 496px;
+    margin: 0 auto;
+    color: var(--background);
 }
 
 .color-slates {
