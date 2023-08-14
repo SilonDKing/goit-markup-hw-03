@@ -458,6 +458,11 @@ color: var(--color-text-in-menu-adress-h3-footer-bg);
 .img-portfolio {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
+     max-width: 1128px;
+    flex-shrink: 0;
+    padding-bottom: 120px;
+    padding-top: 72px;
 }
 
 .card-content-p2 {
