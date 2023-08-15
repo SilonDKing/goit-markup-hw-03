@@ -354,6 +354,9 @@ background-color: var(--button-color-hover);
     color: var(--navy-blue);
     letter-spacing: 0.72px;
     display: block;
+    padding: 188px 0;
+    padding-left: 559px;
+
 }
 
 .place-footer {
