@@ -451,6 +451,9 @@ color: var(--color-text-in-menu-adress-h3-footer-bg);
 
 .btn-padding-p2 {
     padding: 12px 24px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
 }
 
 .card-set {
