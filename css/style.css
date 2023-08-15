@@ -224,11 +224,6 @@ background-color: var(--button-color-hover);
         gap: 40px;
         padding-left: 76px;
 
-
-}
-
-.color-cloud {
-    color: var(--cloud);
 }
 
 .title-index {
