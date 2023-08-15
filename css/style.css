@@ -359,6 +359,7 @@ background-color: var(--button-color-hover);
 .place-footer {
     font-size: 16px;
     line-height: 1.5;
+    background-color: var(--navyblue, #2E2F42);
 }
 
 .footertext-style {
