@@ -492,7 +492,7 @@ color: var(--color-text-in-menu-adress-h3-footer-bg);
 
 .studiowh {
     color: #F4F4FD;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 18px;
     font-weight: 800;
     line-height: 1.313;
@@ -510,4 +510,19 @@ color: var(--color-text-in-menu-adress-h3-footer-bg);
 
 .description {
     color: var(--color-text-in-p)
+}
+
+footer {
+    background-color:var(--navyblue, #2E2F42); 
+}
+
+.studio-color-second {
+    color: var(--cloud, #F4F4FD);
+    font-family: "raleway";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
 }
