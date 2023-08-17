@@ -356,7 +356,7 @@ footer {
     color: var(--navy-blue);
     letter-spacing: 0.72px;
     display: block;
-    padding-right: 558px;
+    text-align: center;
 
 }
 
@@ -392,6 +392,7 @@ footer {
     letter-spacing: 0.72px;
     color: var(--navy-blue);
     background-color: var(--cloud, #F4F4FD);
+    text-align: center;
 }
 
 .color-slates {
