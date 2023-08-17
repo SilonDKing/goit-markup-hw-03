@@ -155,9 +155,11 @@ ul {
     border-radius: 4px;
     border: 1px solid;
     line-height: 1.5;
-    display: inline-flex;
-    align-items: flex-start;
     gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 76px;
 }
 
 .pointer:hover, .pointer:focus, .pointer:active {
