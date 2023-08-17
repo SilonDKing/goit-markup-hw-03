@@ -269,10 +269,6 @@ background-color: var(--button-color-hover);
 background-color: var(--button-color-hover);
 }
 
-.index-background {
-    background-color: var(--navy-blue);
-}
-
 .wawd {
     background-color: var(--background);
     color: var(--color-text-in-menu-adress-h3-footer-bg);
