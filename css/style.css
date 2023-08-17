@@ -336,7 +336,9 @@ background-color: var(--button-color-hover);
     width: 264px;
 }
 
-
+footer {
+    background-color: var(--navyblue, #2E2F42);
+}
 
 .h3-title {
     font-family: "Roboto";
