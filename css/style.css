@@ -297,6 +297,10 @@ background-color: var(--button-color-hover);
     display: flex;
         flex-wrap: wrap;
         gap: 24px;
+        padding-left: 427px;
+        padding-right: 427px;
+        padding-bottom: 86px;
+        padding-top: 96px;
 }
 
 .ot {
