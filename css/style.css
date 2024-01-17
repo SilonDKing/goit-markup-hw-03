@@ -301,6 +301,8 @@ background-color: var(--button-color-hover);
         padding-right: 427px;
         padding-bottom: 86px;
         padding-top: 96px;
+        justify-content: center;
+            align-items: center;
 }
 
 .ot {
