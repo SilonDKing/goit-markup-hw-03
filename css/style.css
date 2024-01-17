@@ -293,6 +293,12 @@ background-color: var(--button-color-hover);
     padding-top: 72px;
 }
 
+.menu-style-p2 {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+}
+
 .ot {
     background-color: #F4F4FD;
 }
